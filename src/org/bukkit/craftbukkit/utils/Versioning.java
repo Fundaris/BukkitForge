@@ -34,7 +34,7 @@ public class Versioning {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		result = map.get("MCVersion") + "-" + map.get("BuildNumber");
+		result = "@VERSION@";
 		return result;
 	}
 }
